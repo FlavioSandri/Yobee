@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoBee | Tecnologia e Sustentabilidade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="doD.png" alt="YoBee Logo" class="logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link active">Início</a></li>
+                    <li><a href="quem-somos.html" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#visao" class="nav-link">Nossa Visão</a></li>
+                    <li><a href="#projetos" class="nav-link">Futuro</a></li>
+                    <li><a href="https://planttools.vercel.app" target="_blank" class="nav-link">Planttools</a></li>
+                    <li><a href="#contato" class="nav-link cta-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-background">
+            <div class="particles-container" id="particles-js"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">YoBee</span>
+                </h1>
+                <p class="hero-subtitle">Tecnologia que cultiva o futuro. Inovação sustentável para conectar pessoas e natureza.</p>
+                
+                <div class="company-stats">
+                    <div class="company-stat">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Anos de Inovação</div>
+                    </div>
+                    <div class="company-stat">
+                        <div class="stat-number" data-count="5000">0</div>
+                        <div class="stat-label">Usuários Impactados</div>
+                    </div>
+                    <div class="company-stat">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label">Prêmios Tecnológicos</div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#visao" class="button primary-cta">
+                        <span>Conheça Nossa Visão</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="quem-somos.html" class="button secondary-cta">
+                        <span>Nossa História</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="corporate-showcase">
+                    <div class="showcase-item main-showcase">
+                        <div class="showcase-content">
+                            <h3>Inovação com Propósito</h3>
+                            <p>Criando soluções tecnológicas que transformam a relação entre seres humanos e natureza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Seção Visão -->
+    <section id="visao" class="content-section vision">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Visão de Futuro</h2>
+                <p class="section-subtitle">Construindo um amanhã onde tecnologia e sustentabilidade caminham juntas</p>
+            </div>
+
+            <div class="vision-grid">
+                <div class="vision-card fade-in-up">
+                    <div class="vision-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Pesquisa & Desenvolvimento</h3>
+                    <p>Investimos 30% do nosso faturamento em pesquisa para criar as soluções mais inovadoras do mercado</p>
+                    <div class="vision-metric">
+                        <span class="metric-value">R$ 2.5M</span>
+                        <span class="metric-label">Investimento em P&D</span>
+                    </div>
+                </div>
+
+                <div class="vision-card fade-in-up">
+                    <div class="vision-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Expansão Global</h3>
+                    <p>Plano de expansão para 5 países até 2027, levando nossa tecnologia sustentável para o mundo</p>
+                    <div class="vision-metric">
+                        <span class="metric-value">5</span>
+                        <span class="metric-label">Países até 2027</span>
+                    </div>
+                </div>
+
+                <div class="vision-card fade-in-up">
+                    <div class="vision-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>YoBee Campus</h3>
+                    <p>Em 2026 inauguraremos nosso centro de inovação com laboratórios de ponta e áreas verdes</p>
+                    <div class="vision-metric">
+                        <span class="metric-value">2026</span>
+                        <span class="metric-label">Inauguração</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos Futuros CORRIGIDA -->
+    <section id="projetos" class="projects-section">
+        <div class="projects-container">
+            <!-- Projeto 1 -->
+            <div class="project-slide" id="gardenos">
+                <div class="container">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h2 class="project-title">GardenOS</h2>
+                            <p class="project-subtitle">O sistema operacional para jardins inteligentes</p>
+                            <p class="project-description">
+                                Controle completo do seu ecossistema verde através de inteligência artificial. 
+                                Automatize irrigação, monitoramento e cuidados com plantas de forma inteligente.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-robot"></i>
+                                    <span>IA Preditiva</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-tint"></i>
+                                    <span>Irrigação Automática</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Análise em Tempo Real</span>
+                                </div>
+                            </div>
+                            <div class="project-status">
+                                <span class="status">Disponível em 2026</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="phone-mockup">
+                                <div class="phone-screen gardenos-demo">
+                                    <div class="app-header">
+                                        <span>GardenOS</span>
+                                        <i class="fas fa-leaf"></i>
+                                    </div>
+                                    <div class="app-content">
+                                        <div class="garden-stats">
+                                            <div class="stat-item">
+                                                <span class="label">Umidade</span>
+                                                <span class="value">65%</span>
+                                            </div>
+                                            <div class="stat-item">
+                                                <span class="label">Temperatura</span>
+                                                <span class="value">24°C</span>
+                                            </div>
+                                            <div class="stat-item">
+                                                <span class="label">Luz Solar</span>
+                                                <span class="value">Alta</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-slide" id="ecovr">
+                <div class="container">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h2 class="project-title">EcoVR</h2>
+                            <p class="project-subtitle">Imersão total na natureza</p>
+                            <p class="project-description">
+                                Experiências de realidade virtual que transportam você para os mais belos ecossistemas 
+                                do planeta. Aprendizado e relaxamento em ambientes naturais imersivos.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-vr-cardboard"></i>
+                                    <span>Realidade Virtual</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-globe-americas"></i>
+                                    <span>Ambientes Globais</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Educação Ambiental</span>
+                                </div>
+                            </div>
+                            <div class="project-status">
+                                <span class="status">Disponível em 2027</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="phone-mockup">
+                                <div class="phone-screen ecovr-demo">
+                                    <div class="app-header">
+                                        <span>EcoVR</span>
+                                        <i class="fas fa-mountain"></i>
+                                    </div>
+                                    <div class="app-content">
+                                        <div class="vr-environment">
+                                            <div class="environment-name">Floresta Amazônica</div>
+                                            <div class="environment-info">
+                                                <span>🌡️ 28°C</span>
+                                                <span>💧 85%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="project-slide" id="geoplant">
+                <div class="container">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h2 class="project-title">GeoPlant</h2>
+                            <p class="project-subtitle">Monitoramento planetário de áreas verdes</p>
+                            <p class="project-description">
+                                Tecnologia de satélite para monitorar e analisar áreas verdes urbanas em tempo real. 
+                                Dados precisos para planejamento urbano sustentável e conservação ambiental.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-satellite"></i>
+                                    <span>Imagens de Satélite</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>Mapeamento Urbano</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-database"></i>
+                                    <span>Big Data Analytics</span>
+                                </div>
+                            </div>
+                            <div class="project-status">
+                                <span class="status">Disponível em 2026</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="phone-mockup">
+                                <div class="phone-screen geoplant-demo">
+                                    <div class="app-header">
+                                        <span>GeoPlant</span>
+                                        <i class="fas fa-satellite-dish"></i>
+                                    </div>
+                                    <div class="app-content">
+                                        <div class="map-view">
+                                            <div class="city-data">
+                                                <div class="data-point">
+                                                    <span class="number">42%</span>
+                                                    <span class="label">Áreas Verdes</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 4 -->
+            <div class="project-slide" id="biome">
+                <div class="container">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h2 class="project-title">BioMe</h2>
+                            <p class="project-subtitle">Sua conexão pessoal com a natureza</p>
+                            <p class="project-description">
+                                Sistema de monitoramento pessoal que acompanha sua interação com a natureza 
+                                e oferece insights personalizados para melhorar seu bem-estar ambiental.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-heartbeat"></i>
+                                    <span>Health Tracking</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-chart-pie"></i>
+                                    <span>Análise Personalizada</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-seedling"></i>
+                                    <span>Wellness Insights</span>
+                                </div>
+                            </div>
+                            <div class="project-status">
+                                <span class="status">Disponível em 2027</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="phone-mockup">
+                                <div class="phone-screen biome-demo">
+                                    <div class="app-header">
+                                        <span>BioMe</span>
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="app-content">
+                                        <div class="health-metrics">
+                                            <div class="metric">
+                                                <span class="label">Tempo na Natureza</span>
+                                                <span class="value">2h 30m</span>
+                                            </div>
+                                            <div class="metric">
+                                                <span class="label">Qualidade do Ar</span>
+                                                <span class="value">Excelente</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Indicadores de Navegação -->
+        <div class="project-indicators">
+            <div class="indicator active" data-target="gardenos"></div>
+            <div class="indicator" data-target="ecovr"></div>
+            <div class="indicator" data-target="geoplant"></div>
+            <div class="indicator" data-target="biome"></div>
+        </div>
+    </section>
+
+    <!-- Seção Crescimento Corporativo -->
+    <section class="content-section growth">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trajetória de Crescimento</h2>
+                <p class="section-subtitle">De startup promissora a líder em tecnologia sustentável</p>
+            </div>
+
+            <div class="growth-timeline">
+                <div class="growth-phase">
+                    <div class="phase-year">2022</div>
+                    <div class="phase-content">
+                        <h3>Fundação</h3>
+                        <p>Nascemos como uma startup universitária com uma visão ousada</p>
+                        <div class="phase-stats">
+                            <div class="phase-stat">
+                                <span class="number">5</span>
+                                <span class="label">Fundadores</span>
+                            </div>
+                            <div class="phase-stat">
+                                <span class="number">R$ 50K</span>
+                                <span class="label">Investimento Inicial</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="growth-phase">
+                    <div class="phase-year">2024</div>
+                    <div class="phase-content">
+                        <h3>Consolidação</h3>
+                        <p>Estabelecimento no mercado e primeiras parcerias estratégicas</p>
+                        <div class="phase-stats">
+                            <div class="phase-stat">
+                                <span class="number">25</span>
+                                <span class="label">Colaboradores</span>
+                            </div>
+                            <div class="phase-stat">
+                                <span class="number">R$ 2.5M</span>
+                                <span class="label">Faturamento</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="growth-phase">
+                    <div class="phase-year">2026</div>
+                    <div class="phase-content">
+                        <h3>Expansão</h3>
+                        <p>Inauguração do YoBee Campus e lançamento de novas plataformas</p>
+                        <div class="phase-stats">
+                            <div class="phase-stat">
+                                <span class="number">100+</span>
+                                <span class="label">Colaboradores</span>
+                            </div>
+                            <div class="phase-stat">
+                                <span class="number">R$ 15M</span>
+                                <span class="label">Faturamento Projetado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="growth-phase">
+                    <div class="phase-year">2028</div>
+                    <div class="phase-content">
+                        <h3>Liderança Global</h3>
+                        <p>IPO e estabelecimento como referência mundial em tech sustentável</p>
+                        <div class="phase-stats">
+                            <div class="phase-stat">
+                                <span class="number">5</span>
+                                <span class="label">Países</span>
+                            </div>
+                            <div class="phase-stat">
+                                <span class="number">R$ 50M+</span>
+                                <span class="label">Faturamento Anual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Planttools como Produto -->
+    <section class="content-section planttools-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Planttools: Nossa Primeira Realização</h2>
+                <p class="section-subtitle">A plataforma que consolidou nossa expertise em tecnologia verde</p>
+            </div>
+
+            <div class="product-highlight">
+                <div class="highlight-content">
+                    <h3>Mais que um Produto, uma Prova de Conceito</h3>
+                    <p>O Planttools demonstra nossa capacidade de criar soluções tecnológicas que realmente fazem a diferença na vida das pessoas e do planeta.</p>
+                    
+                    <div class="achievement-stats">
+                        <div class="achievement">
+                            <div class="achievement-number" data-count="98">0</div>
+                            <div class="achievement-label">Satisfação do Usuário</div>
+                        </div>
+                        <div class="achievement">
+                            <div class="achievement-number" data-count="15000">0</div>
+                            <div class="achievement-label">Plantas Cultivadas</div>
+                        </div>
+                        <div class="achievement">
+                            <div class="achievement-number" data-count="3">0</div>
+                            <div class="achievement-label">Prêmios de Inovação</div>
+                        </div>
+                    </div>
+
+                    <div class="highlight-actions">
+                        <a href="https://planttools.vercel.app" target="_blank" class="button primary-cta">
+                            <span>Conhecer Planttools</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CTA Corporativo -->
+    <section class="content-section corporate-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Faça Parte da Nossa Jornada</h2>
+                <p class="cta-subtitle">Invista no futuro da tecnologia sustentável e cresça conosco</p>
+                
+                <div class="cta-grid">
+                    <div class="cta-option">
+                        <div class="option-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Parcerias</h3>
+                        <p>Junte-se a nós como parceiro estratégico</p>
+                        <a href="#contato" class="button secondary-cta">Seja um Parceiro</a>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <div class="option-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Carreiras</h3>
+                        <p>Trabalhe na vanguarda da tech sustentável</p>
+                        <a href="#contato" class="button secondary-cta">Ver Vagas</a>
+                    </div>
+                    
+                    <div class="cta-option">
+                        <div class="option-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Investimentos</h3>
+                        <p>Invista em nosso crescimento futuro</p>
+                        <a href="#contato" class="button secondary-cta">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-container">
+                        <img src="doD.png" alt="YoBee Logo" class="logo">
+                    </div>
+                    <p>Tecnologia que cultiva o futuro.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="quem-somos.html">Sobre Nós</a></li>
+                            <li><a href="#visao">Nossa Visão</a></li>
+                            <li><a href="#projetos">Futuro</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Produtos</h4>
+                        <ul>
+                            <li><a href="https://planttools.vercel.app" target="_blank">Planttools</a></li>
+                            <li><a href="#projetos">Próximos Lançamentos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Carreiras</h4>
+                        <ul>
+                            <li><a href="#contato">Vagas</a></li>
+                            <li><a href="#contato">Cultura</a></li>
+                            <li><a href="#contato">Benefícios</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 YoBee. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
